@@ -126,6 +126,7 @@ header{
     overflow: hidden;
     transform: scale(0);
     transition: transform .5s ease, height .2s ease;
+    z-index: 999;
 }
 
 .wrapper.active-popup{
@@ -289,6 +290,12 @@ header{
 .login-register p a:hover{
     text-decoration: underline;
 }
+
+.login-page,
+.register-page{
+    background: #fff;
+}
+
 
 
 
